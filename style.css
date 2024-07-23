@@ -1,0 +1,98 @@
+/* Overall body style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the app */
+.container {
+    background: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form container style */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Input field style */
+#teamName {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add team button style */
+#addTeam {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#addTeam:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Team list container style */
+.team-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual team list item style */
+.team-list li {
+    background: #f8f9fa; /* Light gray background */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete button style */
+.team-list button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #dc3545; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.team-list button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
